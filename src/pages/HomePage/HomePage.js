@@ -5,8 +5,8 @@ import { useState } from "react";
 import '../../App.css';
 import '../../styles/home.css';
 import NavBar from '../components/NavBar';
-import Earth_Background from '../../img/Earth_Background.mp4';
 import ImagePreview from "./ImagePreview";
+import Earth_Background from '../../img/Earth_background.mp4'
 
 
 export default function HomePage({items}) {
@@ -26,7 +26,7 @@ export default function HomePage({items}) {
         <Body>
         </Body>
         <Jumbotron>
-      <h1 class="TitleHome">Hello, earthlings!</h1>
+      <h1 class="TitleHome">Hola, earthly beings!</h1>
       <p class="PHome">
           Here you can find photos of the planets and galaxies!
       </p>
